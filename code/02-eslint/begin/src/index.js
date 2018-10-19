@@ -9,7 +9,7 @@ const logger =  message => {
 const reverseArray = array => array.reverse();
 
 const reverseString = string => {
-  return string
+  return strin
     .split("")
     .reverse()
     .join("");
