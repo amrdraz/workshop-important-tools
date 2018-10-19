@@ -1,3 +1,8 @@
+const { createButton } = require("./js/Button")
+const { addProductToCart } = require("./js/functions")
+const ProductStore = require("./js/product-store")
+const Cart = require("./js/cart")
+
 let button = createButton("Click Me")
 
 let productStore = new ProductStore({
@@ -15,4 +20,3 @@ button.addEventListener("click", () => {
 })
 
 document.body.appendChild(button)
-

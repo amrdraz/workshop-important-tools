@@ -3,3 +3,5 @@ function createButton(textContent) {
   button.textContent = textContent
   return button
 }
+
+exports.createButton = createButton

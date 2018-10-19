@@ -1,5 +1,5 @@
 
-class ProductStore {
+module.exports = class ProductStore {
   constructor ({ price, amount, name }) {
     Object.assign(this, { price, amount, name })
     // Same as
