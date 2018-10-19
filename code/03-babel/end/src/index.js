@@ -1,6 +1,10 @@
 
-export const Button = props => <button class="btn" {...props} />
+const Button = props => <button class="btn" {...props} />
 
-export class Counter {
+class Counter {
   value = 0;
+}
+
+function sayHello() {
+  console.log("hello")
 }

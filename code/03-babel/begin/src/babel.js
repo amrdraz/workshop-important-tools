@@ -1,13 +1,9 @@
-const babel = require("babel-core")
+const babel = require("@babel/core")
 const options = {
   presets: [
     "@babel/preset-env",
-    // "@babel/preset-react"
   ],
-  plugins: [
-    // "@babel/plugin-proposal-class-properties",
-    // "captains-log",
-  ]
+  plugins: []
 }
 
 const code = `
