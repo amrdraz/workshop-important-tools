@@ -1,0 +1,2 @@
+debugger
+require("./src/index")
