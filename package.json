@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "serve": "http-server ./src",
+    "eslint": "eslint",
     "webpack": "webpack",
     "gulp": "gulp",
     "browserify": "browserify src/index.js -o src/bundle.js",
