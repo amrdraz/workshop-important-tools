@@ -10,7 +10,7 @@ let cart = new Cart()
 
 button.addEventListener("click", () => {
   addProductToCart(productStore, cart)
-  console.log("product.amount", product.amount)
+  console.log("product.amount", productStore.amount)
   console.log(cart.products)
 })
 
