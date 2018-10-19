@@ -1,0 +1,66 @@
+{
+  "name": "workshop-important-tools",
+  "version": "1.0.0",
+  "description": "a workshop introducing eslint, babel, and webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "http-server ./src",
+    "webpack": "webpack",
+    "gulp": "gulp",
+    "browserify": "browserify src/index.js -o src/bundle.js",
+    "webpack-dev-server": "webpack-dev-server",
+    "prod": "npm run webpack -- --env.mode production",
+    "build": "npm run webpack -- --mode development",
+    "dev": "npm run webpack-dev-server -- --env.mode development --hot",
+    "prod:analyze": "npm run prod -- --env.presets analyze"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amrdraz/workshop-important-tools.git"
+  },
+  "keywords": [
+    "learn",
+    "js",
+    "eslint",
+    "babel",
+    "webpack"
+  ],
+  "author": "Amr Draz <amr.m.draz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrdraz/workshop-important-tools/issues"
+  },
+  "homepage": "https://github.com/amrdraz/workshop-important-tools#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-captains-log": "^1.1.0",
+    "browserify": "^16.2.3",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.7.0",
+    "file-loader": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.4.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.21.0",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}
