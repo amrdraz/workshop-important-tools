@@ -11,7 +11,7 @@ const options = {
 }
 
 const code = `
-
+const add = (a, b) => a + b 
 `
 
 let output = babel.transform(code, options);
