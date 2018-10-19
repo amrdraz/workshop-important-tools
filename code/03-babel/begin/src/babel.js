@@ -1,6 +1,6 @@
 const babel = require("babel-core")
 const options = {
-  preset: [
+  presets: [
     "@babel/preset-env",
     // "@babel/preset-react"
   ],
